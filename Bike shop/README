@@ -1,0 +1,23 @@
+# Bike Rental Shop
+
+This script is designed to manage a bike rental shop. It allows users to rent and return bikes, and handles customer registrations. The script interacts with a PostgreSQL database to track bike availability and customer information.
+
+## Features
+
+- **Rent a Bike:** Lists available bikes and allows customers to rent a bike by selecting from the available options.
+- **Return a Bike:** Lets customers return rented bikes and updates bike availability in the system.
+- **Customer Registration:** Registers new customers if they are not already in the system based on their phone number.
+
+## Setup
+
+### Prerequisites
+
+- PostgreSQL must be installed and running.
+- A PostgreSQL database named `bikes` should be set up with the appropriate schema and data.
+
+### Setup Instructions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
