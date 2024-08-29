@@ -1,0 +1,6 @@
+Este script de bash se utiliza para importar datos de un archivo CSV a una base de datos PostgreSQL. El archivo CSV debe contener información sobre juegos de un torneo. El script realiza las siguientes tareas:
+
+Conexión a la Base de Datos: El script se conecta a diferentes bases de datos dependiendo del argumento proporcionado (test o el valor por defecto). Usa psql para ejecutar consultas SQL.
+Vaciar Tablas: El script vacía las tablas games y teams antes de realizar la importación.
+Leer y Procesar el Archivo CSV: El script lee el archivo games.csv, verifica y agrega los equipos (ganadores y oponentes) a la base de datos si no existen, e inserta los datos de los juegos en la tabla correspondiente.
+Insertar Datos: Los datos son insertados en las tablas games y teams.
