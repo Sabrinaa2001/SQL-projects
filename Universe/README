@@ -1,0 +1,4 @@
+Este archivo es un volcado de la base de datos PostgreSQL para el esquema "universe". Incluye la creación de la base de datos, tablas, secuencias y datos iniciales. La base de datos está diseñada para almacenar información sobre galaxias, estrellas, planetas y lunas, junto con una tabla adicional llamada tablax.
+
+Versión de PostgreSQL: 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
+Propietario de la Base de Datos: freecodecamp
