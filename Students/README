@@ -1,0 +1,32 @@
+# PostgreSQL Database Dump
+
+Este archivo es un volcado de una base de datos PostgreSQL que contiene información sobre cursos, principales áreas de estudio y estudiantes. Este volcado fue generado utilizando `pg_dump` desde una base de datos PostgreSQL versión 12.17.
+
+## Contenido del Volcado
+
+El volcado incluye:
+
+- **Base de Datos:** `students`
+- **Tablas:**
+  - `courses`: Información sobre cursos.
+  - `majors`: Áreas de estudio.
+  - `majors_courses`: Relación entre áreas de estudio y cursos.
+  - `students`: Información sobre estudiantes.
+
+- **Secuencias:**
+  - `courses_course_id_seq`: Secuencia para generar IDs de cursos.
+  - `majors_major_id_seq`: Secuencia para generar IDs de áreas de estudio.
+  - `students_student_id_seq`: Secuencia para generar IDs de estudiantes.
+
+- **Datos:**
+  - Datos de ejemplo para cursos, áreas de estudio, y estudiantes.
+  - Relaciones entre áreas de estudio y cursos.
+
+## Instrucciones para Restaurar la Base de Datos
+
+1. **Crear la Base de Datos**
+
+   Si aún no tienes una base de datos creada, crea una nueva base de datos utilizando el comando SQL siguiente:
+
+   ```sql
+   CREATE DATABASE students WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C.UTF-8' LC_CTYPE = 'C.UTF-8';
