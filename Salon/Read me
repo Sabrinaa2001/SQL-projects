@@ -1,0 +1,11 @@
+# Salon Appointment System
+
+This is a simple script for managing appointments at a salon. It allows users to choose a service, register their details, and schedule an appointment.
+
+## Features
+
+- Lists available services.
+- Allows users to select a service.
+- Collects customer details including phone number and name.
+- Registers customers if they are not already in the database.
+- Schedules an appointment based on user input.
