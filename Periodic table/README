@@ -1,0 +1,10 @@
+# Element Info Script
+
+This script retrieves and displays information about a chemical element based on its atomic number, name, or symbol. It connects to a PostgreSQL database named `periodic_table` and queries the `elements` and `properties` tables to provide details about the specified element.
+
+## Prerequisites
+
+- PostgreSQL database named `periodic_table` with the following tables:
+  - `elements` (contains `atomic_number`, `name`, `symbol`)
+  - `properties` (contains `atomic_number`, `type_id`, `atomic_mass`, `melting_point_celsius`, `boiling_point_celsius`)
+- `psql` command-line tool for interacting with PostgreSQL.
